@@ -10,3 +10,9 @@
     display: flex;
     background: #000000;
 }
+
+.wrapper .singleImage img{
+    width: 600px;
+    height: 1165px;
+    margin: 2px;
+}
