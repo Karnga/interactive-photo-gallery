@@ -26,3 +26,33 @@ body{
     width: 100%;
     transform: scale(1.35, 1.02);
 }
+
+.caption {
+    position: absolute;
+    bottom: 45;
+    margin-left: 90;
+    width: 18%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.caption .title{
+    font-family: 'Franklin Gothic';
+    font-size: 46;
+    letter-spacing: 3px;
+    transform: scale(1, 1.8);
+}
+
+.caption h2{
+    position: relative;
+    top: 24;
+}
+
+.caption h3{
+    font-size: 23;
+    position: relative;
+    top: 71;
+    color: #A1A1A1;
+}
