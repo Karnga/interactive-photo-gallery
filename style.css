@@ -15,14 +15,14 @@ body{
 }
 
 .wrapper{
-    padding-left: 2.3%;
-    padding-top: 0.5%;
-    display: flex;
-    background: #000000;
+    width: 36.8rem;
+    height: 73rem;
+    overflow: hidden;
+    margin: 2px;
 }
 
-.wrapper .singleImage img{
-    width: 600px;
-    height: 1165px;
-    margin: 2px;
+.wrapper img{
+    height: 100%;
+    width: 100%;
+    transform: scale(1.35, 1.02);
 }
